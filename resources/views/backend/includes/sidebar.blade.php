@@ -10,6 +10,12 @@
             </li>
 
 
+        {{--start_Hello_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/helloes')) }}" href=" {{ route('admin.hello.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.helloes') }}</a>
+            </li>
+            {{--end_Hello_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
